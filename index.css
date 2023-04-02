@@ -72,4 +72,11 @@
 .result span {
   font-size: 28px;
   margin: 0 30px;
+  max-width: 260px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-align: right;
+  word-break: break-word;
 }
